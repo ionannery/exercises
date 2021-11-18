@@ -1,0 +1,7 @@
+Grupo 11 - Falta um
+1 - Ao abrimos nosso Cliente chamado Chrome, digitamos o endereço: www.google.com
+2 - É convertido pelo DNS em endereço IP;
+3 - Passando para o Roteador, segue para o provedor;
+4 - Feito um Request para o Servidor, através do HTTP - TCP/IP
+5 - Servidor faz o processamento do código HTML, CSS e Javascript.
+6 - Retorna uma resposta da requisição solicitada para o Cliente. (Fazendo o caminho inverso)
