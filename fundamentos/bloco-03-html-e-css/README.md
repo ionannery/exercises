@@ -1,5 +1,5 @@
 ## HTML
-Nesse bloco vamos estudar sobre **HTML* ou Hyper Text Markup Language, uma linguagem de marcação de texto através de tags que permite apresentar informações na internet.
+Nesse bloco vamos estudar sobre **HTML** ou Hyper Text Markup Language, uma linguagem de marcação de texto através de tags que permite apresentar informações na internet.
 Os principais pontos a serem estudados são: 
 - Estruturar páginas web com **HTML** utilizando as tags `html`, `head` e `body`.
 - Utilizar o **HTML**  para estruturar textos e títulos.
