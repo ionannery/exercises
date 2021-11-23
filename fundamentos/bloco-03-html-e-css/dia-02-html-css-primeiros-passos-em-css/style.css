@@ -1,0 +1,36 @@
+
+body {
+    font-size: 16px;
+    font-style: bold;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.colorlistp {
+    background-color: white;
+}
+
+p{
+    font-weight: 600;
+    font-size: 3em;
+
+}
+
+#list1 {
+    background-color: yellow;       
+}
+
+#list2 {
+    background-color: red;
+}
+
+#list3 {
+    background-color: brown;
+}
+
