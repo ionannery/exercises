@@ -1,0 +1,62 @@
+div:hover {
+    border: 2px solid black;
+}
+
+h3 {
+    margin: 0px;
+    line-height: 32px;
+}
+
+div {
+    margin: 0px;
+}
+
+div:first-child {
+    lighting-color: blue;
+}
+
+
+div:nth-child(3) {
+    background: aqua;
+}
+
+div:nth-child(4) {
+    background: red;
+}
+
+div:nth-child(5) {
+    background: green;
+    height: 50px;
+}
+
+div:nth-child(6) {
+    background: blue;
+}
+
+div:nth-child(7) {
+    background: yellow;
+}
+
+div:nth-child(3) h3 {
+    font-style: italic;
+    color: white;
+}
+
+div:nth-child(4) h3 {
+    color: blue;
+}
+
+div:nth-child(5) h3 {
+    font-style: italic;
+    color: red;
+    padding: 8px 0px;
+}
+
+div:nth-child(6) h3 {
+     color: yellow;
+}
+
+div:nth-child(7) h3 {
+    font-style: italic;
+    color: black;
+}
