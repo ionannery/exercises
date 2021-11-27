@@ -1,4 +1,4 @@
-# Bloco 01 - Fundamentos do Desenvolvimento Web
+# Módulo 01 - Fundamentos do Desenvolvimento Web
 
 Este repositório contém exercícios do bloco de Fundamentos do Desenvolvimento Web desenvolvidas por _[Ionan Nery Siqueira](https://www.linkedin.com/in/ionannery/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
