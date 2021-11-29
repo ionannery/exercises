@@ -49,7 +49,7 @@ for (let index = 0; index < numbers.length; index++) {
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let somaArrays = 0;
 
-for (let ndex = 0; index < numbers.length; index++) {
+for (let index = 0; index < numbers.length; index++) {
     somaArrays = somaArrays + numbers[index];
 }
 
