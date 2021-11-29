@@ -182,9 +182,95 @@ switch (peça.toLowerCase()) {
 
 // Exercise 13 
 
+const nota = 60;
 
+if (nota < 0 || nota > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (nota >= 90) {
+  console.log("A");
+} else if (nota >= 80) {
+  console.log("B");
+} else if (nota >= 70) {
+  console.log("C");
+} else if (nota >= 60) {
+  console.log("D");
+} else if (nota >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}
 
+// Exercise 14
 
+const num1 = 23;
+const num2 = 41;
+const num3 = 40;
 
+let num = false;
 
+if(num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
+    num = true;
+};
+    console.log(num);
+
+// Exercise 15
+
+const num1 = 12;
+const num2 = 20;
+const num3 = 45;
+
+let num = false;
+
+if(num1 % 2 !== 0 || num2 % 2 !== 0 || num3 % 2 !== 0) {
+    num = true;
+};
+
+console.log(num);
+
+// Exercise 16
+
+const valorCusto = 40;
+const valorVenda = 60;
+const valorCustoTotal = valorCusto * 1.2;
+
+if(valorCusto >= 0 && valorVenda >= 0) {
+    lucro = (valorVenda - valorCustoTotal) * 1000;
+} else {
+    console.log("Esse valor é negativo.")
+}
+
+console.log(lucro);
+
+// Exercise 17
+
+let inss;
+let ir;
+
+const salarioBruto = 4000.00;
+
+if (salarioBruto <= 1556.94) {
+  inss = salarioBruto * 0.08;
+} else if (salarioBruto <= 2594.92) {
+  inss = salarioBruto * 0.09;
+} else if (salarioBruto <= 5189.82) {
+  inss = salarioBruto * 0.11;
+} else {
+  inss = 570.88;
+}
+
+const salarioBase = salarioBruto - inss;
+
+if (salarioBase <= 1903.98) {
+  ir = 0;
+} else if (salarioBase <= 2826.65) {
+  ir = (salarioBase * 0.075) - 142.80;
+} else if (salarioBase <= 3751.05) {
+  ir = (salarioBase * 0.15) - 354.80;
+} else if (salarioBase <= 4664.68) {
+  ir = (salarioBase * 0.225) - 636.13;
+} else {
+  ir = (salarioBase * 0.275) - 869.36;
+};
+
+console.log("O salário líquido é: " + (salarioBase - ir));
 
