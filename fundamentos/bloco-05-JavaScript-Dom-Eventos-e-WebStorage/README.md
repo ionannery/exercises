@@ -1,1 +1,1 @@
-## Bloco 05 - JavaScript - DOM e Seletores
+## Bloco 05 - JavaScript - DOM, Eventos e Web storage
