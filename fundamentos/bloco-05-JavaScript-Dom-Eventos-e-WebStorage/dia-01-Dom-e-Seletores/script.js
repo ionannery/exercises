@@ -1,13 +1,21 @@
-document.getElementById("header-container").style.background = ('green')
+const header = document.getElementById("header-container");
+header.style.background = "green";
 
-document.querySelector(".emergency-tasks h3").style.background = ('red');
+const section1 = document.getElementsByClassName("emergency-tasks")[0];
+section1.style.background = "orange";
 
-document.querySelector(".emergency-tasks").style.background = ('#2345');
+const emergencyTasks = document.querySelectorAll(".emergency-tasks h3");
+for (let index = 0; index < emergencyTasks.length; index++) {
+    emergencyTasks[index].style.backgroundColor = "purple";
+}
 
-document.querySelector(".no-emergency-tasks h3").style.background = ('red');
+const section2 = document.querySelector('.no-emergency-tasks');
+section2.style.backgroundColor = "red";
 
-document.querySelector(".no-emergency-tasks").style.background = ('#2345');
+const noEmergencyTasks = document.querySelectorAll(".no-emergency-tasks h3");
+for (let index = 0; index < noEmergencyTasks.length; index++) {
+    noEmergencyTasks[index].style.backgroundColor = "yellow";
+}
 
-document.getElementById("footer-container").style.background = ('red');
-
-document.getElementById("container").style.background = ('black');
+const footer = document.getElementById("footer-container");
+footer.style.backgroundColor = "#123"
